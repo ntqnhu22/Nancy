@@ -12,6 +12,9 @@ This repository contains a broken web app built with Dash. Please follow the tas
    3. Setup virtual environment, start the app, and access the app.
 6. Commit and push all the changes, and provide a link to your own repo in your submission in the last.
 
+My repo:
+https://github.com/ntqnhu22/Nancy
+
 ## Instruction about how to run this app:
 1.  Install a Modern Python Package Manager
    - Use Poetry to manage Python versions and dependencies.
