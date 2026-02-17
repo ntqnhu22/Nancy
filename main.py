@@ -50,7 +50,7 @@ day_list = [
 ]
 # I fixed this
 #check_in_duration = df["Check-In Time"].describe(datetime_is_numeric=True)
-
+# Debug:
 # Ensure Check-In Time is datetime
 df["Check-In Time"] = pd.to_datetime(df["Check-In Time"], errors='coerce')
 
@@ -721,6 +721,6 @@ def update_table(start, end, clinic, admit_type, heatmap_click, reset_click, *ar
 
 # Run the server
 if __name__ == "__main__":
-    # I fixed this
+    # Debug: I fixed this
     #app.run_server(debug=True)
     app.run(debug=True, port=10030)
