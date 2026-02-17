@@ -145,10 +145,6 @@ def generate_patient_volume_heatmap(start, end, clinic, hm_click, admit_type, re
     # Get list of departments
     departments = filtered_df["Department"].unique()
 
-    # DEBUG: check filtered data
-    print("Filtered rows:", filtered_df.shape)
-    print("Departments:", departments)
-
     x_axis = [datetime.time(i).strftime("%I %p") for i in range(24)]  # 24hr time list
     y_axis = day_list
 
