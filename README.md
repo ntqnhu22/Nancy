@@ -18,23 +18,16 @@ This repository contains a broken web app built with Dash. Please follow the tas
    - Poetry respects pyproject.toml and .python-version, unlike pip.
 2. Setup Virtual Environment
    - Install project dependencies:
-
      poetry install
    - Activate the virtual environment:
-
      poetry shell
-   
    This ensures all dependencies are isolated from the system Python environment.
 3. Run the Dashboard
    - Inside the virtual environment:
-     
       poetry run python main.py
    - You should see output similar to:
-     
       Dash is running on http://127.0.0.1:10030/
 4. Access the App
    - Open your web browser and go to:
-     
       http://127.0.0.1:10030/
-     
       You can now interact with the Clinical Analytics Dashboard.
