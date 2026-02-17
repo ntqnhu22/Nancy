@@ -14,8 +14,8 @@ This repository contains a broken web app built with Dash. Please follow the tas
 
 ## Instruction about how to run this app:
 1.  Install a Modern Python Package Manager
-      - Use Poetry to manage Python versions and dependencies.
-- Poetry respects pyproject.toml and .python-version, unlike pip.
+   - Use Poetry to manage Python versions and dependencies.
+   - Poetry respects pyproject.toml and .python-version, unlike pip.
 2. Setup Virtual Environment
    - Install project dependencies:
       poetry install
