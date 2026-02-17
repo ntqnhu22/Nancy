@@ -1,0 +1,15 @@
+[project]
+name = "debugging-q4"
+version = "0.1.0"
+description = "CCHC Assessment Debugging Q4"
+authors = [{ name = "Nancy Nguyen", email = "nguyenthiquynhn22@gmail.com" }]
+readme = "README.md"
+
+packages = []
+
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "pandas",
+    "dash"
+]
